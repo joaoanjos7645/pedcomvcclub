@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "stram-chat",
-    "slug": "stram-chat",
+    "name": "ped-plus",
+    "slug": "ped-plus",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zpirs.pedplus"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "654f7a71-6131-4dd3-8497-6dc97d3441f3"
+      }
     }
   }
 }
