@@ -13,7 +13,7 @@ export default function LoginScreen() {
     <View style={{ padding: 16, justifyContent: 'center', flex: 1, }}>
       <Image source={require('@/assets/images/logo.png')} style={styles.logo} />
       <View style={styles.form}>
-      <Text style={styles.title}>Bem-vindo ao PedPlus! Faça login para continuar</Text>
+      <Text style={styles.title}>Bem-vindo ao PedcomVc! Faça login para continuar</Text>
         <TextField
           label="Email:"
           value={email}
